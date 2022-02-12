@@ -1,0 +1,84 @@
+\documentclass[a4paper,11pt]{moderncv}
+
+\widowpenalty=10000
+\clubpenalty=10000
+
+\usepackage[T1]{fontenc}
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fullpage}
+\usepackage[export]{adjustbox}
+\definecolor{moderncvcolor}{rgb}{0.22,0.45,0.70}% light blue
+
+% Moderncv configuration
+\moderncvstyle{casual}
+\moderncvcolor{blue}
+
+\setlength{\hintscolumnwidth}{0.2\textwidth}
+
+\newcommand{\street}{Via Modigliani 46}
+\newcommand{\city}{57025 Piombino}
+\newcommand{\state}{Italy}
+\newcommand{\personalemail}{r.menta99@gmail.com}
+\newcommand{\professionalemail}{r.menta@studenti.unipi.it}
+\newcommand{\phonenumber}{(+39)~320~937~5790}
+
+\name{Roberto}{Menta}
+\title{Curriculum Vit\ae{} \\ \rightline{\normalsize{\today}}}
+\address{\street}{\city}{\state}
+\phone[mobile]{\phonenumber}
+\email{\professionalemail}
+\homepage{sites.google.com/a/studenti.unipi.it/roberto-menta/home} % Non si vede la tilde
+\social[linkedin]{roberto-menta-2830531a6}
+% \social[github]{apiazza134}
+% \photo[128pt]{photo}
+
+\begin{document}
+\makecvtitle{}
+
+\section{Personal Information}
+\begin{minipage}{0.5\textwidth}
+    \cvitem{Name and surname}{Roberto Menta}
+    \cvitem{Birth date}{August 31, 1999}
+    \cvitem{Nationality}{Italian}
+    \cvitem{Address}{\street, \city, \state}
+    \cvitem{Phone number}{\phonenumber}
+    \cvitem{Personal email}{\href{mailto:\personalemail}{\personalemail}}
+    \cvitem{Professional email}{r.menta@studenti.unipi.it}
+\end{minipage}
+\begin{minipage}{0.5\textwidth}
+    \hfill
+    \includegraphics[width=115pt,cfbox=moderncvcolor 0.4pt]{photo.jpg}
+\end{minipage}
+
+\section{Education}
+\cventry{2021/09--present}{Master in Theoretical Physics}{\href{https://www.df.unipi.it/en}{Università di Pisa}}{Pisa, Italy}{}{Current interests in Foundations of Quantum Mechanics, Statistical and Condensed Matter Theory, Computation and Quantum Information Theory,  Quantum Field Theory.
+}
+\cventry{2018/09--2021/09}{Bachelor in Physics}{\href{https://www.df.unipi.it/en}{Università di Pisa}}{Pisa, Italy}{110/110 cum laude}{
+    Bachelor thesis on \emph{The Einstein-Podolsky-Rosen paradox and Bell's Inequalities}, advisor Enrico Meggiolaro.
+}
+\cventry{2016/06--2016/09}{Exchange student}{Trinity College Perth}{Perth, Australia}{}{First italian student at TC of Perth, certificate of merit.}
+\cventry{2013/09--2018/07}{Maturità scientifica}{Liceo Scientifico Statale Giosuè Carducci}{Piombino, Italy}{90/100}{Short thesis on \emph{Black holes and Einstein's lagacy,  praise to S.W. Hawking}.}
+
+
+\section{Experience}
+\cventry{2021/11--2022/06}{Tutor and Physics 2 course assistant}{\href{https://www.df.unipi.it/en}{Università di Pisa}}{Pisa, Italy}{}{}
+\cventry{2016/11--present}{Football referee}{Associazione Italiana Arbitri}{Tuscany, Italy}{}{
+September 1-4, 2021,  RLO (Referee Lison Officer) for the Qualification for EURO 2023 under 21, Italy-Luxembourg. \\
+Season 2019/20 Project Uefa Talent $\&$ Mentor.
+}
+
+\section{Computer skills}
+\cvlistitem{Programming languages: \texttt{Python 3} (scientific libraries \texttt{matplotlib}, \texttt{NumPy}, \texttt{uncertainties}, \texttt{SciPy}, \texttt{SymPy}) \texttt{C}, \texttt{Fortran}}
+\cvlistitem{Markup languages: \LaTeX}
+
+
+\section{Languages}
+\cvitem{Italian}{Mother tongue}
+\cvitemwithcomment{English}{FCE passed at grade B (2017)}{Council Europe level B2}
+
+
+
+
+\end{document}
